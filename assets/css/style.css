@@ -1,0 +1,11 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: #28a745;
+}
+.formulario {
+  background-color: #28a745;
+}

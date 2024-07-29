@@ -8,15 +8,15 @@
   <title>Cuppon</title>
 </head>
 <body>
-  <header class="container-fluid">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <header>
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button> 
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto text-light">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -35,13 +35,58 @@
     </nav>
   </header>
 
-  <section class="gallery-cuppon"></section>
+  <section class="gallery-cuppon container">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4 mt-4">
+        <div class="card" style="width: 100%;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
 
-  <section class="formulario"></section>
+      <div class="col-12 col-md-6 col-lg-4 mt-4">
+        <div class="card" style="width: 100%;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
 
-  <footer class="container">    
-    <img src="./assets/img/logo-black.png" alt="">
-    <p class="text-center">©2024 Cuppon Latam. Todos los derechos reservados.</p>
+      <div class="col-12 col-md-6 col-lg-4 mt-4">
+        <div class="card" style="width: 100%;">
+          <img src="..." class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="formulario container-fluid mt-5">
+    <p class="text-center text-light p-3">Recibe cupones en Tu correo</p>
+    <div class="container justify-content-center">
+      <input class="form-control form-control-lg m-3" type="text" placeholder="Nombre" aria-label=".form-control-lg example">
+      <input class="form-control form-control-lg m-3" type="text" placeholder="Correo electronico" aria-label=".form-control-lg example">
+      <button class="mb-4" type="submit">Enviar</button>
+    </div>
+    
+  </section>
+
+  <footer class="container">
+    <div class="row justify-content-end">
+      <img src="./assets/img/logo-black.png" alt="">     
+      <p class="text-center">©2024 Cuppon Latam. Todos los derechos reservados.</p>
+    </div>    
   </footer>
 
 
