@@ -49,9 +49,12 @@ body {
   justify-content: center;
 }
 button {
-  width: 200px;
+  width: 120px;
   border-color: #F8F9FA;
   border-radius: 5px;
   background-color:#F8F9FA;
   font-weight: 500;
+}
+.footer img {
+  width: 86px;
 }
