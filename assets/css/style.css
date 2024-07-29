@@ -2,10 +2,56 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.roboto-light {
+  font-weight: 300;
+  font-style: normal;
+}
+.roboto-medium {
+  font-weight: 500;
+  font-style: normal;
 }
 .navbar {
   background-color: #28a745;
 }
+.card-text {
+  font-size: 20px;
+  font-weight: 300;
+}
+.card-name {
+  font-weight: 300;
+}
+.card-ubicacion {
+  font-size: 13px;
+  font-weight: 300;
+}
+.card-precio {  
+  font-weight: 300;
+}
+.card-precio span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #28a745;
+}
 .formulario {
   background-color: #28a745;
+}
+.formulario p {
+  font-size: 21px;
+  font-weight: 500;
+}
+.formulario input {
+  font-weight: 300;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  width: 200px;
+  border-color: #F8F9FA;
+  border-radius: 5px;
+  background-color:#F8F9FA;
+  font-weight: 500;
 }
