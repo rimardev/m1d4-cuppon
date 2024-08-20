@@ -14,3 +14,5 @@ columna para Mobile, 2 columnas para Tablet y 3 columnas para Desktop.
   /assets/css/style.css para el archivo CSS que crees.
   
   /index.html.
+
+  ![screenshot](https://github.com/rimardev/m1d4-cuppon/blob/main/assets/img/screenshot.jpg)
